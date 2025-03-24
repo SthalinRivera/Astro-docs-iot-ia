@@ -12,48 +12,34 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Introducion',
+					label: 'Brazos Roboticos 6° libertad',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: '¿Qué es un brazo robótico?', slug: 'introduccion/que-es' },
-						{ label: 'Aplicaciones y Usos', slug: 'introduccion/usos' },
-					],
-				},
-				{
-					label: 'Componentes del Sistema',
-					items: [
-						{ label: 'Arduino y su función', slug: 'componentes/arduino' },
-						{ label: 'Controlador de Servos de 16 canales', slug: 'componentes/controlador-servos' },
-						{ label: 'Servomotores', slug: 'componentes/servomotores' },
-						{ label: 'Estructura del Brazo Robótico', slug: 'componentes/estructura' },
-						{ label: 'Alimentación y Cableado', slug: 'componentes/alimentacion' },
-					],
-				},
-				{
-					label: 'Montaje y Conexiones',
-					items: [
-						{ label: 'Ensamblaje del brazo', slug: 'montaje/ensamblaje' },
-
-					],
-				},
-				{
-					label: 'Programación en Arduino',
-					items: [
-						{ label: 'Instalación del entorno de desarrollo', slug: 'programacion/instalacion-ide' },
-						{ label: 'Bibliotecas necesarias', slug: 'programacion/bibliotecas' },
-						{ label: 'Uso del Controlador PCA9685', slug: 'programacion/codigo-base' },
-						{ label: 'Movimiento barrido secuencial', slug: 'programacion/movimiento-secuencial' },
-						{ label: 'Moviendo los servomotores en posiciones diferentes', slug: 'programacion/movimiento-posiciones-diferentes' },
-					],
-				},
-				{
-					label: 'Pruebas y Ajustes',
-					items: [
-						{ label: 'Calibración de Servos', slug: 'pruebas/calibracion' },
-						{ label: 'Resolución de Errores', slug: 'pruebas/errores' },
+						{ label: '¿Qué es un brazo robótico?', slug: 'brazos-roboticos/01-que-es' },
+						{ label: 'Estructura del Brazo Robótico', slug: 'brazos-roboticos/03-estructura' },
+						{ label: 'Alimentación y Cableado', slug: 'brazos-roboticos/04-alimentacion' },
+						{ label: 'Uso del Controlador PCA9685', slug: 'brazos-roboticos/05-codigo-base' },
+						{ label: 'Instalación del entorno de desarrollo', slug: 'brazos-roboticos/06-instalacion-ide' },
+						{ label: 'Movimiento barrido secuencial', slug: 'brazos-roboticos/07-movimiento-secuencial' },
+						{ label: 'Moviendo los servomotores en posiciones diferentes', slug: 'brazos-roboticos/08-movimiento-posiciones-diferentes' },
 					],
 				},
 
+				{
+					label: 'Jetson nano developer Kid NVIDIA',
+					items: [
+						{ label: 'Introducción', slug: 'jetson-nano/01-introduccion' },
+						{ label: 'Configuración de Entorno', slug: 'jetson-nano/02-configuracion-entorno-desarrollo' },
+						{ label: 'Instalación y Configuración Inicial', slug: 'jetson-nano/03-instalacion-y-configuracion-inicial' },
+						{ label: 'Desarrollo y Ejecución de Modelos de IA', slug: 'jetson-nano/04-desarrollo-y-ejecucion-modelos-ia' },
+					],
+				},
+				{
+					label: 'Impresora 3D ',
+					items: [
+						{ label: 'Introducción', slug: 'impresora3d/01-introduccion' },
+					],
+				},
 				{
 					label: 'Recomendacion',
 					autogenerate: { directory: 'recomendaciones' },
