@@ -12,6 +12,15 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
+					label: 'Laboratorio IOT-IA',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Laboratorio IOT-IA', slug: 'nosotros/01-nosotros' },
+
+					],
+				},
+
+				{
 					label: 'Brazos Roboticos 6° libertad',
 					items: [
 						// Each item here is one entry in the navigation menu.
