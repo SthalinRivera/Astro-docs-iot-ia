@@ -19,7 +19,17 @@ export default defineConfig({
 
 					],
 				},
-
+				{
+					label: 'Curso de Arduino Avanzado',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Contenido del curso', slug: 'arduino-avanzado/01-introduccion' },
+						{ label: 'Sesión 01:Fundamentos y Control Básico ', slug: 'arduino-avanzado/01-sesion' },
+						{ label: 'Sesión 02:Displays, Sensores y Actuadores Simples', slug: 'arduino-avanzado/02-sesion' },
+						{ label: 'Sesión 03:Comunicación y Sensado Avanzado', slug: 'arduino-avanzado/03-sesion' },
+						{ label: 'Sesión 04:Proyectos Integradores, Juegos y Roboótica', slug: 'arduino-avanzado/04-sesion' },
+					],
+				},
 				{
 					label: 'Brazos Roboticos 6° libertad',
 					items: [
