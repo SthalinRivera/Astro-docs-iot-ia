@@ -60,6 +60,13 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Cortadora Laser Co2',
+					items: [
+						{ label: 'Introducción', slug: 'cortadora-laser-co2/01-introduccion' },
+						{ label: 'Software y Preparación de Archivos', slug: 'cortadora-laser-co2/02-software-preparacion-archivos' },
+					],
+				},
+				{
 					label: 'Recomendacion',
 					autogenerate: { directory: 'recomendaciones' },
 				},

@@ -1,0 +1,118 @@
+---
+title: 📂 Software y Preparación de Archivos
+description: Software y Preparación de Archivos
+---
+
+import { Card } from '@astrojs/starlight/components';
+import { LinkCard } from '@astrojs/starlight/components';
+import { Aside } from '@astrojs/starlight/components';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+
+El software es la herramienta fundamental para **preparar, configurar y enviar diseños** a la máquina láser.  
+En este módulo aprenderás a instalar, configurar y trabajar con **RDWorks**, además de preparar archivos desde programas de diseño como **Illustrator** o **CorelDRAW**.
+
+---
+
+<Card title="💡 Consejo rápido" icon="💻">
+RDWorks es el software más utilizado con máquinas láser **Ruida**.  
+Recuerda mantener siempre la **versión actualizada** para evitar errores de compatibilidad.
+</Card>
+
+---
+
+## 🔹 4.1 Instalación y Configuración de RDWorks
+
+### ✅ Requisitos mínimos del sistema
+- Sistema Operativo: Windows XP, 7, 8 o 10 (32/64 bits)  
+- Procesador: Intel/AMD Dual-Core o superior  
+- RAM: 2GB mínimo (4GB recomendado)  
+- Espacio en disco: 500 MB libres  
+- Puerto USB para conexión directa o red Ethernet  
+
+<Tabs>
+  <TabItem label="Descarga Online">
+    - Descarga la versión más reciente desde el sitio oficial:  
+      👉 [RDWorks - Sitio oficial](https://megalaser.com.ar/descargas/)  
+    - Ejecuta el instalador y sigue los pasos: **Next → Accept → Finish**.  
+  </TabItem>
+  <TabItem label="CD de Instalación">
+    - Inserta el **CD de instalación** que viene con la máquina.  
+    - Instala también el **driver de la máquina láser** incluido en el paquete.  
+  </TabItem>
+</Tabs>
+
+### ⚙️ Configuración inicial
+- Abrir RDWorks → **Config → Machine Settings**.  
+- Configurar el área de trabajo: `900mm x 600mm`.  
+- Seleccionar el **controlador Ruida**.  
+- Guardar y reiniciar el software.  
+
+<Aside type="tip" title="Tip">
+Antes de cortar, verifica que el tamaño de la mesa en el software **coincida con el área real de tu máquina**.
+</Aside>
+
+---
+
+## 🔹 4.2 Formatos Compatibles
+
+La máquina láser soporta distintos formatos de archivos:
+
+| Formato | Tipo de archivo | Uso principal |
+|---------|-----------------|---------------|
+| **AI**  | Adobe Illustrator | Diseños vectoriales avanzados |
+| **DXF** | AutoCAD Drawing | Planos técnicos y cortes |
+| **BMP** | Bitmap | Imágenes para grabado |
+| **PLT** | HPGL Plotter | Gráficos de plóter |
+| **HPGL**| Hewlett-Packard Graphics Language | Trazados |
+| **SVG** | Convertido a AI/DXF | Gráficos vectoriales web |
+
+<Aside type="caution" title="Recomendación">
+- Para **cortes**: usar formatos **vectoriales (AI, DXF)**.  
+- Para **grabados**: usar **BMP** en alta resolución.
+</Aside>
+
+---
+
+## 🔹 4.3 Preparación de Diseños en Illustrator/CorelDRAW
+
+1. **Área de trabajo**: Documento con `90x60 cm` en milímetros.  
+2. **Colores por capas**:  
+   - 🔴 Rojo → Corte  
+   - 🔵 Azul → Grabado  
+   - ⚫ Negro → Marcado ligero  
+3. **Texto en curvas**: Convierte a contornos para evitar problemas de fuentes.  
+4. **Exportación**: Guardar como **AI (CS6 o menor)** o **DXF** → Importar en RDWorks.  
+
+---
+
+## 🔹 4.4 Ajustes de Velocidad y Potencia Según Material
+
+La calidad del corte depende de:  
+- **Velocidad (mm/s):** rapidez del cabezal.  
+- **Potencia (%):** intensidad del láser.  
+
+| Material        | Espesor | Velocidad (mm/s) | Potencia (%) | Observaciones |
+|-----------------|---------|------------------|--------------|---------------|
+| MDF             | 3–6 mm  | 15–25            | 70–85        | Bordes oscuros posibles |
+| Acrílico        | 3–8 mm  | 10–20            | 75–90        | Corte limpio |
+| Cartón          | 1–3 mm  | 50–120           | 40–60        | Evitar quemado |
+| Cuero           | 1–2 mm  | 25–50            | 50–70        | Aire asistido recomendado |
+| Tela            | Variado | 200–400          | 20–40        | Ideal patrones |
+| Vidrio          | Grabado | 200–300          | 15–30        | Usar máscara adhesiva |
+| Piedra/Mármol   | Grabado | 150–250          | 20–35        | Grabado blanco/gris |
+
+<Aside type="note" title="Nota">
+Estos valores son **referenciales**. Realiza siempre **pruebas de calibración** antes de un trabajo final.
+</Aside>
+
+---
+
+## ✅ Resumen del Módulo
+
+- RDWorks es el software clave para enviar trabajos al láser.  
+- **AI/DXF → cortes | BMP → grabado**.  
+- Diseños preparados en **Illustrator/CorelDRAW** deben coincidir con el área real de la máquina (`90x60 cm`).  
+- La velocidad y potencia dependen del material y su espesor.  
+
+---
